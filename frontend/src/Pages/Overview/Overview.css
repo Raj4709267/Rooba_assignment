@@ -1,0 +1,130 @@
+@import "../../index.css";
+
+.overview-main-container {
+    padding: 0px 35px;
+}
+
+.overview-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.overview-header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.overview-header-text p {
+    font-size: 36px;
+    height: 50px;
+    font-weight: 600;
+    color: #575353;
+
+}
+
+.overview-header-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.overview-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.overview-content-container>div {
+    width: 50%;
+}
+
+.overview-report-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.overview-report-item {
+    background: var(--primary-background);
+    border-radius: 32px;
+    padding: 10px 20px;
+
+}
+
+.overview-report-item:hover {
+    color: white;
+    background: linear-gradient(135deg, var(--gradient-color1), var(--gradient-color2));
+    box-shadow: rgba(225, 124, 253, 0.25) 0px 54px 55px,
+        rgba(76, 215, 246, 0.12) 0px -12px 30px,
+        rgba(76, 215, 246, 0.12) 0px 4px 6px,
+        rgba(76, 215, 246, 0.17) 0px 12px 13px,
+        rgba(76, 215, 246, 0.09) 0px -3px 5px;
+    color: white;
+}
+
+.overview-report-item:hover .overview-report-top>svg {
+    color: white;
+}
+
+.overview-report-item:hover .overview-report-name>svg {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.overview-report-item:hover .overview-report-name>p {
+    color: white;
+}
+
+.overview-report-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.overview-report-top>svg {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.overview-report-indicator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.overview-report-value {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 0;
+    margin-bottom: 8px;
+}
+
+.overview-report-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-report-name>p {
+    color: #2B2F42;
+    font-weight: 600;
+    opacity: 0.72;
+
+}
+
+.overview-report-name>svg {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
