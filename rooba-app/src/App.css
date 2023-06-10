@@ -1,0 +1,16 @@
+/* other-styles.css */
+@import './index.css';
+
+
+
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+.main-container {
+  width: 80vw;
+  margin-left: 20vw;
+}

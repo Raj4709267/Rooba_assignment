@@ -1,0 +1,14 @@
+.error {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.error>h1 {
+    background-image: linear-gradient(to right, var(--gradient-color1), var(--gradient-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+}
